@@ -6,13 +6,13 @@ function SearchBar(props) {
         <div>
             <div className="field has-addons">
             <p className="control">
-                <button className="button is-static is-medium " type="text" placeholder="Your email">Search</button>
+                <button className="button is-static is-medium " type="button">Find</button>
             </p>
             <p className="control">
                 <input className={`input is-medium ${styles['input-control']}`} type="text" placeholder="Restuarants, Plumbers e.t.c" />
             </p>
             <p className="control">
-                <button className="button is-static is-medium " type="text" placeholder="Your email">Near</button>
+                <button className="button is-static is-medium " type="button">Near</button>
             </p>
             <p className="control">
                 <input className={`input is-medium ${styles['input-control']}`} type="text" placeholder="Where" />

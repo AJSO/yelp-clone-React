@@ -1,10 +1,16 @@
 import React from 'react';
+import { Route, Switch } from 'react-router-dom';
 import LandingPage from './components/landing/LandingPage';
+import Search from './components/search/Search';
 
 function App() {
   return (
     <div className="App">
-     <LandingPage />
+      <Switch>
+        <Route path='/search' component={Search} />
+        <Route path='/' component={LandingPage} />
+
+      </Switch>
     </div>
   );
 }
